@@ -62,8 +62,8 @@ const Contact = () => {
       {redAlert && <Redalert />}
       <SpotlightCard
         className="w-full max-w-[500px]  relative 
-        -top-[10em]  md:-top-[5em] xxl:top-[2em] xxl:w-[320px] xxl:left-2
-        min-h-[50px]  sm:min-h-[400px]  sm:right-20 sm:-top-[5em] ssm:-top-[13em]   md:right-0 
+        -top-[13em]  md:-top-[5em] xxl:top-[2em] xxl:w-[320px] xxl:left-2
+        min-h-[50px]  sm:min-h-[400px]  sm:right-20 sm:-top-[5em] ssm:h-[280px] ssm:-top-[13em]   md:right-0 
          rounded-lg p-4 sm:p-6 shadow-[0px_4px_16px_#B10AE0]"
         spotlightColor="rgb(159, 43, 104)"
       >

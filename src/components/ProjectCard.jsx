@@ -13,7 +13,7 @@ const ProjectCard = ({ props }) => {
   };
   return (
     <div>
-      <div className=" backdrop-blur-sm shadow-[0px_4px_16px_#B10AE0] w-[130px] ssm:w-[170px] md:w-[220px] ssm:h-[300px] md:h-[420px] lg:w-[300px] group gap-[0.5em] rounded-[1.5em] relative flex justify-end flex-col   p-[1.5em] z-[1] overflow-hidden">
+      <div className=" backdrop-blur-sm shadow-[0px_4px_16px_#B10AE0] w-[130px] ssm:w-[170px] md:w-[220px] ssm:h-[280px] md:h-[420px] lg:w-[300px] group gap-[0.5em] rounded-[1.5em] relative flex justify-end flex-col   p-[1.5em] z-[1] overflow-hidden">
         <div className="absolute top-0 left-0 h-full flex  w-full ">
           <img
             src={props.img}
